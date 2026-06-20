@@ -1,0 +1,4 @@
+split,recordings,collectors,segments,positive_labels,segments_with_any_label,label_density,label_bell_ringing,label_coffee_machine,label_cutlery_dishes,label_door_open_close,label_footsteps,label_keyboard_typing,label_keychain,label_light_switch,label_microwave,label_phone_ringing,label_running_water,label_toilet_flushing,label_vacuum_cleaner,label_wardrobe_drawer_open_close,label_window_open_close
+train,2564,286,117477,130923,97831,0.0742970964529227,2167,5211,10847,8680,21902,12984,8257,2538,10012,9823,17407,5072,8236,4878,2909
+validation,549,61,25444,28869,21656,0.07564062254362522,513,1040,2568,1971,5268,2781,1844,492,1985,2093,3933,978,1723,1040,640
+test,543,61,25318,27181,20559,0.0715722674250204,502,1137,2258,1831,4222,2861,1720,564,2053,1987,3253,1045,1878,1103,767

@@ -1,0 +1,9 @@
+{
+  "model_name": "logistic",
+  "params": {
+    "C": 1.0,
+    "class_weight": null
+  },
+  "threshold": 0.3,
+  "median_window": 3
+}

@@ -1,0 +1,4 @@
+median_window,dev_macro_f1,dev_macro_f1_all15,note
+1,0.4316,0.4316,no post-processing
+3,0.449319,0.449319,median filter
+5,0.417577,0.417577,median filter

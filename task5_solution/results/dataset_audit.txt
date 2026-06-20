@@ -1,0 +1,43 @@
+======================================================================
+MLPC 2026 Task 5 — Dataset Audit
+======================================================================
+Dataset dir : /Users/aleksandr.masiev/Desktop/MLPC/MLPC2026_challenge
+Baseline dir: /Users/aleksandr.masiev/Desktop/MLPC/challenge_baseline
+
+train      :  3704 npz   metadata=yes  annotations=yes
+validation :   999 npz   metadata=yes  annotations=yes
+test       :  1007 npz   metadata=NO  annotations=NO  (hidden)
+
+Hidden test 'annotations' key present: False  (expected False -> no labels)
+
+Example train file : 000001.npz
+  segments         : 61
+  feature dim      : 960  (expected 960)
+  label classes    : 15  (expected 15)
+  annotators (A)   : 2
+  start_time[:6]   : [0.  0.5 1.  1.5 2.  2.5]  (hop = 0.5s)
+
+Validation split (seed 42):
+  development validation : 499 files
+  non-hidden test        : 500 files
+  first dev-val file     : 005604.wav
+  first non-hidden file  : 002101.wav
+
+Annotation rows per class (train annotations.csv):
+  bell_ringing                    905
+  coffee_machine                  760
+  cutlery_dishes                 4919
+  door_open_close                5043
+  footsteps                      7614
+  keyboard_typing                2924
+  keychain                       3289
+  light_switch                   2580
+  microwave                      1489
+  phone_ringing                  2908
+  running_water                  2655
+  toilet_flushing                1055
+  vacuum_cleaner                  856
+  wardrobe_drawer_open_close     2845
+  window_open_close              1741
+
+Audit complete.

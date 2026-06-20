@@ -1,0 +1,4 @@
+Matplotlib is building the font cache; this may take a moment.
+=== Phase 5: qualitative error analysis ===
+Selected: {'success': '003224.wav', 'false_positive': '001714.wav', 'missed': '001503.wav'}
+Saved 3 figures + error_analysis_notes.md (4.3s)

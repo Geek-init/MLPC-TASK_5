@@ -1,0 +1,11 @@
+=== Phase 6: final hidden-test predictions ===
+Final config: logistic {'C': 1.0, 'class_weight': None} threshold=0.3 median_window=3
+Final training set (train + full validation): X=(217558, 960)
+NOTE: final logistic fit on a 12000-segment subsample of train+val (matches selection-time training size; solver is slow here).
+Trained final model in 120.6s
+Hidden test files            : 1007
+Files with >=1 prediction    : 1002
+Files with no prediction     : 5
+Total predicted intervals    : 5402
+Saved: /Users/aleksandr.masiev/Desktop/MLPC/task5_solution/submission/predictions_hidden_test.csv
+Total runtime 121.8s

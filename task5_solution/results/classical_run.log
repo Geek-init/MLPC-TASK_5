@@ -1,0 +1,15 @@
+=== Phase 3: classical classifiers ===
+Standardized on train only. Xtr=(170508, 960), Xval=(47050, 960) (1.0s)
+Precom/Users/aleksandr.masiev/Library/Python/3.13/lib/python/site-packages/joblib/externals/loky/backend/resource_tracker.py:359: UserWarning: resource_tracker: There appear to be 16 leaked file objects to clean up at shutdown
+  warnings.warn(
+/Users/aleksandr.masiev/Library/Python/3.13/lib/python/site-packages/joblib/externals/loky/backend/resource_tracker.py:359: UserWarning: resource_track  logistic C=1.0 cw=balanced: fit+eval 165.4s
+  random_forest depth=20: fit+eval 123.8s
+  random_forest depth=None: fit+eval 160.9s
+
+Best classical: logistic (C=1.0,class_weight=None), threshold=0.3, dev Macro F1=0.4316
+Non-hidden test Macro F1: 0.4360 (all-15: 0.4360)
+
+Total runtime 576.4s
+Saved tuning results, best_classical_*, standardizer + model artifacts.
+hon/3.13/lib/python/site-packages/joblib/externals/loky/backend/resource_tracker.py:375: UserWarning: resource_tracker: /tmp/claude-502/joblib_memmapping_folder_90460_d5d8892c3d5d4953924124b4cc342343_ba814aef1933406184b5f249aa223858: FileNotFoundError(2, 'No such file or directory')
+  warnings.warn(f"resource_tracker: {name}: {e!r}")

@@ -1,0 +1,67 @@
+{
+  "group_col": "collector_id",
+  "collector_grouping_used": true,
+  "n_groups": 408,
+  "score": 0.00010725547595247244,
+  "split_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "all_classes_present_each_split": true,
+  "class_counts": {
+    "train": {
+      "bell_ringing": 2167,
+      "coffee_machine": 5211,
+      "cutlery_dishes": 10847,
+      "door_open_close": 8680,
+      "footsteps": 21902,
+      "keyboard_typing": 12984,
+      "keychain": 8257,
+      "light_switch": 2538,
+      "microwave": 10012,
+      "phone_ringing": 9823,
+      "running_water": 17407,
+      "toilet_flushing": 5072,
+      "vacuum_cleaner": 8236,
+      "wardrobe_drawer_open_close": 4878,
+      "window_open_close": 2909
+    },
+    "validation": {
+      "bell_ringing": 513,
+      "coffee_machine": 1040,
+      "cutlery_dishes": 2568,
+      "door_open_close": 1971,
+      "footsteps": 5268,
+      "keyboard_typing": 2781,
+      "keychain": 1844,
+      "light_switch": 492,
+      "microwave": 1985,
+      "phone_ringing": 2093,
+      "running_water": 3933,
+      "toilet_flushing": 978,
+      "vacuum_cleaner": 1723,
+      "wardrobe_drawer_open_close": 1040,
+      "window_open_close": 640
+    },
+    "test": {
+      "bell_ringing": 502,
+      "coffee_machine": 1137,
+      "cutlery_dishes": 2258,
+      "door_open_close": 1831,
+      "footsteps": 4222,
+      "keyboard_typing": 2861,
+      "keychain": 1720,
+      "light_switch": 564,
+      "microwave": 2053,
+      "phone_ringing": 1987,
+      "running_water": 3253,
+      "toilet_flushing": 1045,
+      "vacuum_cleaner": 1878,
+      "wardrobe_drawer_open_close": 1103,
+      "window_open_close": 767
+    }
+  },
+  "recording_leakage": false,
+  "collector_leakage": false
+}

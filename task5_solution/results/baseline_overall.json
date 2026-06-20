@@ -1,0 +1,13 @@
+{
+  "model": "decision_tree_baseline",
+  "config": {
+    "max_depth": 20,
+    "max_features": "sqrt",
+    "random_state": 42,
+    "train_segments": 50000
+  },
+  "dev_val_macro_f1": 0.30694,
+  "nonhidden_test_macro_f1_official": 0.316318,
+  "nonhidden_test_macro_f1_all15": 0.316318,
+  "n_intervals_nonhidden": 7962
+}

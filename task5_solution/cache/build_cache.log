@@ -1,0 +1,19 @@
+Building cache: train=3704, validation=999, test=1007
+Caching train ...
+  [train] 500/3704 files
+  [train] 1000/3704 files
+  [train] 1500/3704 files
+  [train] 2000/3704 files
+  [train] 2500/3704 files
+  [train] 3000/3704 files
+  [train] 3500/3704 files
+  [train] cached X=(170508, 960), Y=(170508, 15), files=3704
+Caching validation ...
+  [validation] 500/999 files
+  [validation] cached X=(47050, 960), Y=(47050, 15), files=999
+Caching test (hidden, no labels) ...
+  [test] 500/1007 files
+  [test] 1000/1007 files
+  [test] cached X=(46055, 960), no labels, files=1007
+Saved split: 499 dev-val / 500 non-hidden test
+Cache build done in 17.3s

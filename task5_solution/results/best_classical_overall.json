@@ -1,0 +1,11 @@
+{
+  "model": "logistic",
+  "params": "C=1.0,class_weight=None",
+  "threshold": 0.3,
+  "dev_val_macro_f1": 0.4316,
+  "nonhidden_test_macro_f1_official": 0.436046,
+  "nonhidden_test_macro_f1_all15": 0.436046,
+  "n_intervals_nonhidden": 7495,
+  "preprocessing": "z-score standardize (fit on train only); no imputation (0 NaNs)",
+  "trained_on": "train subsample (12000)"
+}

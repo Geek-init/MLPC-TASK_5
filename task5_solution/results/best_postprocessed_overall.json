@@ -1,0 +1,15 @@
+{
+  "model": "logistic",
+  "params": {
+    "C": 1.0,
+    "class_weight": null
+  },
+  "threshold": 0.3,
+  "post_processing": "per-class median filter",
+  "selected_window": 3,
+  "dev_val_macro_f1": 0.449319,
+  "nonhidden_test_macro_f1_no_postproc": 0.436046,
+  "nonhidden_test_macro_f1_official": 0.446444,
+  "nonhidden_test_macro_f1_all15": 0.446444,
+  "n_intervals_nonhidden": 2700
+}

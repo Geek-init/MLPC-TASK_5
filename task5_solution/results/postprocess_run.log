@@ -1,0 +1,11 @@
+=== Phase 4: median-filter post-processing ===
+Best classical: logistic {'C': 1.0, 'class_weight': None} threshold=0.3
+  window=1: dev Macro F1 0.4316
+  window=3: dev Macro F1 0.4493
+  window=5: dev Macro F1 0.4176
+
+Selected window=3 (dev Macro F1 0.4493)
+Non-hidden test Macro F1: window1=0.4360 -> window3=0.4464
+
+Total runtime 3.6s
+Saved postprocessing_results.csv + best_postprocessed_*.

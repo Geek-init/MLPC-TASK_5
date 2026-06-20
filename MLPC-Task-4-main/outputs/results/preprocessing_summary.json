@@ -1,0 +1,9 @@
+{
+  "imputer": "SimpleImputer(strategy='median')",
+  "scaler": "StandardScaler()",
+  "fit_split": "train",
+  "feature_dimension": 240,
+  "train_segments": 117477,
+  "validation_segments": 25444,
+  "test_segments": 25318
+}

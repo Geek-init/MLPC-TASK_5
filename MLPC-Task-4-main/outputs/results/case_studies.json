@@ -1,0 +1,72 @@
+[
+  {
+    "case_id": 1,
+    "kind": "successful",
+    "filename": "004028.wav",
+    "split": "test",
+    "model": "linear_ridge",
+    "threshold": 0.5,
+    "micro_f1": 0.691358024691358,
+    "support": 86,
+    "predicted_positive_labels": 157,
+    "true_classes": [
+      "cutlery_dishes",
+      "microwave",
+      "running_water"
+    ],
+    "predicted_classes": [
+      "coffee_machine",
+      "cutlery_dishes",
+      "microwave",
+      "phone_ringing",
+      "running_water",
+      "toilet_flushing",
+      "vacuum_cleaner",
+      "wardrobe_drawer_open_close",
+      "window_open_close"
+    ],
+    "missed_classes": [],
+    "extra_predicted_classes": [
+      "coffee_machine",
+      "phone_ringing",
+      "toilet_flushing",
+      "vacuum_cleaner",
+      "wardrobe_drawer_open_close",
+      "window_open_close"
+    ],
+    "figure": "fig_case_study_1.png"
+  },
+  {
+    "case_id": 2,
+    "kind": "failure_or_ambiguous",
+    "filename": "005084.wav",
+    "split": "test",
+    "model": "linear_ridge",
+    "threshold": 0.5,
+    "micro_f1": 0.0,
+    "support": 6,
+    "predicted_positive_labels": 112,
+    "true_classes": [
+      "window_open_close"
+    ],
+    "predicted_classes": [
+      "coffee_machine",
+      "door_open_close",
+      "footsteps",
+      "keyboard_typing",
+      "microwave",
+      "wardrobe_drawer_open_close",
+      "window_open_close"
+    ],
+    "missed_classes": [],
+    "extra_predicted_classes": [
+      "coffee_machine",
+      "door_open_close",
+      "footsteps",
+      "keyboard_typing",
+      "microwave",
+      "wardrobe_drawer_open_close"
+    ],
+    "figure": "fig_case_study_2.png"
+  }
+]

@@ -1,0 +1,33 @@
+https://github.com/Geek-init/MLPC-Task-4
+Quantized Transformers
+Group first letter: Q
+Assigned slide topic: Dataset Preparation
+Slides must cover: Label Aggregation, Data Split, Leakage Prevention, Class Distribution, Preprocessing
+Report must still cover all four task sections
+
+
+Aleksandr Masiev:
+
+loading.npz;
+label aggregation;
+train/validation/test split;
+class distribution plots;
+preprocessing pipeline;
+writing Dataset Preparation report section;
+preparing slides 1–4 draft.
+
+
+Aleksandar Cvetkovic:
+experiments + checks preparation
+checks aggregation and split logic;
+trains two classifiers;
+runs hyperparameter tuning;
+prepares model comparison plots;
+selects 2 test files for case study;
+writes Experiments + Case Study draft.
+Mandatory mutual verification
+
+“both team members contribute to every phase”:
+Aleksandr Masiev review his classifier results and case studies;
+Aleksandar Cvetkovic review Aleksandr Masiev labels/splits/preprocessing;
+in the report “Both team members reviewed the final pipeline and results.”

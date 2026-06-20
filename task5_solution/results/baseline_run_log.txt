@@ -1,0 +1,29 @@
+=== Phase 2: Baseline reproduction (decision trees) ===
+Loaded train: X=(170508, 960), Y=(170508, 15)
+Subsampled to 50000 segments (baseline default).
+Training MultiOutputClassifier(DecisionTreeClassifier)...
+Fitted 15 per-class trees in 6.9s.
+
+Development validation Macro F1 : 0.3069
+Non-hidden test     Macro F1    : 0.3163   (all-15-class mean: 0.3163)
+Non-hidden intervals predicted  : 7962 across 500 files
+
+Per-class (non-hidden test):
+                annotation  precision   recall       f1  map
+              bell_ringing   0.426087 0.217778 0.288235 None
+            coffee_machine   0.503741 0.282517 0.362007 None
+            cutlery_dishes   0.294377 0.280757 0.287406 None
+           door_open_close   0.222382 0.163330 0.188335 None
+                 footsteps   0.384265 0.293426 0.332757 None
+           keyboard_typing   0.374238 0.345104 0.359081 None
+                  keychain   0.379528 0.280886 0.322840 None
+              light_switch   0.239837 0.227799 0.233663 None
+                 microwave   0.407911 0.372881 0.389610 None
+             phone_ringing   0.533969 0.444004 0.484848 None
+             running_water   0.654784 0.516018 0.577178 None
+           toilet_flushing   0.288425 0.292308 0.290353 None
+            vacuum_cleaner   0.485149 0.455285 0.469742 None
+wardrobe_drawer_open_close   0.111111 0.087045 0.097616 None
+         window_open_close   0.056716 0.066202 0.061093 None
+
+Total runtime 8.4s

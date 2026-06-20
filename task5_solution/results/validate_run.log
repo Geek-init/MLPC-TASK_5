@@ -1,0 +1,26 @@
+=== Phase 7: submission validation ===
+File: /Users/aleksandr.masiev/Desktop/MLPC/task5_solution/submission/predictions_hidden_test.csv
+Header: ['filename', 'annotation', 'onset', 'offset']
+Rows: 5402
+
+Hidden test files total      : 1007
+Files with >=1 prediction    : 1002
+Files with no prediction     : 5
+Predicted classes            : ['bell_ringing', 'coffee_machine', 'cutlery_dishes', 'door_open_close', 'footsteps', 'keyboard_typing', 'keychain', 'light_switch', 'microwave', 'phone_ringing', 'running_water', 'toilet_flushing', 'vacuum_cleaner', 'wardrobe_drawer_open_close', 'window_open_close']
+
+Checks:
+  [PASS] columns_exact
+  [PASS] no_index_column
+  [PASS] filenames_wav
+  [PASS] classes_valid
+  [PASS] timestamps_numeric
+  [PASS] onset_lt_offset
+  [PASS] no_negative
+  [PASS] offsets_within_duration
+  [PASS] filenames_in_testset
+  [PASS] official_loader_accepts
+
+RESULT: ALL CHECKS PASSED
+Runtime 0.0s
+
+Saved: /Users/aleksandr.masiev/Desktop/MLPC/task5_solution/submission/submission_validation_summary.txt
